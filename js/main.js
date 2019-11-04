@@ -43,12 +43,12 @@ function calculatePrice() {
     // начинаем считать цену
     let totalPrice = 0;
     totalPrice = 
-        formData['pages-unique'] * 4000 + 
-        formData['pages-general'] * 2500 +
-        formData['sections'] * 2000 +
-        formData['carousel'] * 1200 +
-        formData['modals'] * 900 +
-        formData['forms'] * 1500;
+        formData['pages-unique'] * 50 + 
+        formData['pages-general'] * 20 +
+        formData['sections'] * 20 +
+        formData['carousel'] * 15 +
+        formData['modals'] * 10 +
+        formData['forms'] * 15;
 
     // мобильный мультипликатор
     let multipleMobile = 1;

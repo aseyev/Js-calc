@@ -2,27 +2,29 @@
 
 /* ------------------- Calc ------------------- */
 .calc-wrapper {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 75px;
+}
+.calc article {
+    margin-bottom: 25px;
 }
 
 .calc-heading {
     margin: 0;
-    margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 1;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.5px;
     text-align: center;
 }
 
 .calc-section {
-    padding: 40px 50px;
+    padding: 20px 20px;
     background-color: #f4f8fa;
 }
 
 .calc-section:nth-child(odd) {
-    padding: 40px 50px;
+    /* padding: 40px 50px; */
     background-color: #FFF;
 }
 
@@ -118,14 +120,16 @@
 }
 
 .calc-price-title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .calc-price-value {
-    font-size: 26px;
-    font-weight: 300;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .hidden {

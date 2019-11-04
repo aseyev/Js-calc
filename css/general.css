@@ -31,6 +31,9 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+.price-title-wrapper {
+    align-items: center;
+}
 
 .heading-inner {
     font-size: 22px;
@@ -52,6 +55,7 @@ img {
 
 .social-icons {
     display: flex;
+    justify-content: flex-end;
 }
 
 .social-icon-link {
