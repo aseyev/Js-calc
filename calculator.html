@@ -16,18 +16,16 @@
         <div class="container">
             <article class="row">
                 
-                <h2 class="col-sm-9 heading-inner">
-                    <span>Anton Aseyev</span><br>
-                    Demo Project: JS, jQuery, Bootstrap example
-                </h2>
+                <h2 class="col-sm-9 heading-inner"> <span>Anton Aseyev</span><br> 
+                    Demo Project: JS, jQuery, Bootstrap example</h2>
 
                 <div class="col-sm-3 social-icons">
                     <a href="#" class="social-icon-link">
-                        <img src="img/icons/github.png" alt="GitHub" class="social-icon-img">
+                        <img src="img/icons/linkedin-flat.svg" alt="LinkedIn" class="social-icon-img" width="48">
                     </a>
                     </a>
                     <a href="#" class="social-icon-link">
-                        <img src="img/icons/facebook.png" alt="Facebook" class="social-icon-img">
+                        <img src="img/icons/GMail-flat.svg" alt="gmail" class="social-icon-img" width="48">
                     </a>
                 </div>
 
@@ -53,18 +51,18 @@
                <!-- //price header block -->
                 
                 <article class="row">
+                    <div class="col-12 calc-title-light">Kind of website</div>
                     <!--Type of website choice -->
                     <div class="col-md-6 calc-section">
-                        <div class="calc-title-light">Kind of web-site</div>
                         <label class="radio-wrapper">
-                            <input type="radio" name="type" value="landing" class="radio" id="radio-landing">
+                            <input type="radio" name="type" value="landing" class="radio" id="radio-landing" checked>
                             <div class="title-bold">
                                 Landing page
                                 <div class="note">One page, several blocks</div>
                             </div>
                         </label>
                         <label class="radio-wrapper">
-                            <input type="radio" name="type" value="site" class="radio" id="radio-site" checked>
+                            <input type="radio" name="type" value="site" class="radio" id="radio-site" >
                             <div class="title-bold">
                                 Web-site
                                 <div class="note">Multiple pages</div>
@@ -72,7 +70,7 @@
                         </label>
                          <!-- Responsiveness -->
                         <div>
-                            <label class="checkbox-wrapper title-bold section-title">
+                            <label class="checkbox-wrapper title-bold">
                                 <input type="checkbox" class="checkbox" id="" name="mobile">
                                 Responsiveness
                             </label>
@@ -80,18 +78,14 @@
                             <input type="radio" name="mobile-number" value="0" class="hidden" checked>
 
                             <label class="radio-wrapper" data-name="mobile">
-                                <div class="radio-holder">
-                                    <input type="radio" name="mobile-number" value="2" >
-                                </div>
+                                <input type="radio" name="mobile-number" value="2" class="radio" checked>
                                 <div class="title-lite">Mobile responsive
                                     <div class="note">+30% to current price</div>
                                 </div>
                             </label>
 
                             <label class="radio-wrapper" data-name="mobile">
-                                <div class="radio-holder">
-                                    <input type="radio" name="mobile-number" value="3">
-                                </div>
+                                <input type="radio" name="mobile-number" value="3" class="radio">
                                 <div class="title-lite">Mobile and tablet responsive
                                     <div class="note">+50% to current price</div>
                                 </div>
@@ -104,24 +98,21 @@
                     <!-- Quantity of unique pages -->
                     <div class="col-md-6 calc-section">
                         <div class="input-wrapper" data-name="pages">
-                            <div class="title-bold">
-                                Quantity of unique page:
+                            <div class="title-bold"> Quantity of unique page:
                                 <div class="note"> 50 $ / page</div>
                             </div>
                             <input type="number" class="input-short" placeholder="0" name="pages-unique" value="0">
                         </div>
 
                         <div class="input-wrapper" data-name="pages">
-                            <div class="title-bold">
-                                Quantity of casual pages:
+                            <div class="title-bold"> Quantity of type pages:
                                 <div class="note"> 20 $ / page</div>
                             </div>
                             <input type="number" class="input-short" placeholder="0" name="pages-general" value="0">
                         </div>
 
                         <div class="input-wrapper" data-name="landing">
-                            <div class="title-bold">
-                                Quantity of sections:
+                            <div class="title-bold"> Quantity of sections:
                                 <div class="note"> 20 $ / section</div>
                             </div>
                             <input type="number" class="input-short" placeholder="0" name="sections" value="0">
@@ -136,27 +127,23 @@
                     <div class="col-md-6 calc-section">
                         
                         <div class="title-bold section-title">Скрипты на странице:</div>
-                        
                         <div class="input-wrapper">
                             <input type="number" class="input-short" placeholder="0" value="0" name="carousel">
-                            <div class="title-lite">
-                                Carousel / Slider
+                            <div class="title-lite"> Carousel / Slider
                                 <div class="note">15 $ / unit</div>
                             </div>
                         </div>
 
                         <div class="input-wrapper">
                             <input type="number" class="input-short" placeholder="0" value="0" name="modals">
-                            <div class="title-lite">
-                                Modal Pop-up
+                            <div class="title-lite"> Modal Pop-up
                                 <div class="note">10 $ / unit</div>
                             </div>
                         </div>
 
                         <div class="input-wrapper">
                             <input type="number" class="input-short" placeholder="0" value="0" name="forms"> 
-                            <div class="title-lite">
-                                Form request
+                            <div class="title-lite"> Form request
                                 <div class="note">15 $ / unit</div>
                             </div>
                         </div>
@@ -168,33 +155,25 @@
                         <div class="title-bold section-title">Дополнительно:</div>
                         <label class="checkbox-wrapper title-lite">
                             <input type="checkbox" class="checkbox" id="" name="pixelPerfect">
-                            <div>
-                                PixelPerfect
-                                <div class="note">+20% к стоимости</div>
+                            <div>PixelPerfect<div class="note">+20% к стоимости</div>
                             </div>
                         </label>
 
                         <label class="checkbox-wrapper title-lite">
                             <input type="checkbox" class="checkbox" id="" name="retinaReady">
-                            <div>
-                                Retina Ready
-                                <div class="note">+20% к стоимости</div>
+                            <div>Retina Ready<div class="note">+20% к стоимости</div>
                             </div>
                         </label>
 
                         <label class="checkbox-wrapper title-lite">
                             <input type="checkbox" class="checkbox" id="" name="googlePageSpeed">
-                            <div>
-                                Google Page Speed
-                                <div class="note">+20% к стоимости</div>
+                            <div>Google Page Speed<div class="note">+20% к стоимости</div>
                             </div>
                         </label>
 
                         <label class="checkbox-wrapper title-lite">
                             <input type="checkbox" class="checkbox" id="" name="urgentOrder">
-                            <div>
-                                Срочный заказ
-                                <div class="note">+50% к стоимости</div>
+                            <div>Срочный заказ<div class="note">+50% к стоимости</div>
                             </div>
                         </label>
                     </div>

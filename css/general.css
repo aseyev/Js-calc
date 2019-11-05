@@ -58,6 +58,14 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+@media (max-width:576px){
+    .heading-inner {
+        text-align: center;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+}
 
 .social-icon-link {
     text-decoration: none;
